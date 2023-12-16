@@ -3,6 +3,8 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
+  Variables:
+  Group: Dotnet_CICD
 
 steps:
 - task: UseDotNet@2
